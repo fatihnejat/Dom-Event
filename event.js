@@ -52,3 +52,12 @@ list.forEach((li) => {
     li.style.transform = "translateX(-20px)";
   };
 });
+
+
+//* EXAMPLE-4 (onload)
+//* -------------------------------------------------
+
+window.onload = function() {
+    document.querySelector("#input").focus();
+
+}
